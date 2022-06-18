@@ -123,6 +123,59 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &789600478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 789600480}
+  - component: {fileID: 789600479}
+  m_Layer: 0
+  m_Name: PlayMakerGUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &789600479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789600478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -73581967, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  previewOnGUI: 1
+  enableGUILayout: 0
+  drawStateLabels: 1
+  enableStateLabelsInBuilds: 0
+  GUITextureStateLabels: 0
+  GUITextStateLabels: 0
+  filterLabelsWithDistance: 0
+  maxLabelDistance: 10
+  controlMouseCursor: 1
+  labelScale: 1
+--- !u!4 &789600480
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789600478}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1805414659
 GameObject:
   m_ObjectHideFlags: 0
@@ -570,6 +623,42 @@ PrefabInstance:
     - target: {fileID: 4315289059134424071, guid: f903c7e0e6be157489e6276e54dfeab8, type: 3}
       propertyPath: m_Name
       value: Level Essentails
+      objectReference: {fileID: 0}
+    - target: {fileID: 7116127519285868135, guid: f903c7e0e6be157489e6276e54dfeab8, type: 3}
+      propertyPath: fsm.states.Array.data[0].position.y
+      value: 148
+      objectReference: {fileID: 0}
+    - target: {fileID: 7116127519285868135, guid: f903c7e0e6be157489e6276e54dfeab8, type: 3}
+      propertyPath: fsm.states.Array.data[1].position.x
+      value: 313.39844
+      objectReference: {fileID: 0}
+    - target: {fileID: 7116127519285868135, guid: f903c7e0e6be157489e6276e54dfeab8, type: 3}
+      propertyPath: fsm.states.Array.data[1].position.y
+      value: 64.58594
+      objectReference: {fileID: 0}
+    - target: {fileID: 7116127519285868135, guid: f903c7e0e6be157489e6276e54dfeab8, type: 3}
+      propertyPath: fsm.states.Array.data[2].position.x
+      value: 315.59375
+      objectReference: {fileID: 0}
+    - target: {fileID: 7116127519285868135, guid: f903c7e0e6be157489e6276e54dfeab8, type: 3}
+      propertyPath: fsm.states.Array.data[2].position.y
+      value: 168.19531
+      objectReference: {fileID: 0}
+    - target: {fileID: 7116127519285868135, guid: f903c7e0e6be157489e6276e54dfeab8, type: 3}
+      propertyPath: fsm.states.Array.data[3].position.x
+      value: 305.21875
+      objectReference: {fileID: 0}
+    - target: {fileID: 7116127519285868135, guid: f903c7e0e6be157489e6276e54dfeab8, type: 3}
+      propertyPath: fsm.states.Array.data[3].position.y
+      value: 306.28125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7116127519285868135, guid: f903c7e0e6be157489e6276e54dfeab8, type: 3}
+      propertyPath: fsm.states.Array.data[4].position.x
+      value: 553.1094
+      objectReference: {fileID: 0}
+    - target: {fileID: 7116127519285868135, guid: f903c7e0e6be157489e6276e54dfeab8, type: 3}
+      propertyPath: fsm.states.Array.data[4].position.y
+      value: 169.85938
       objectReference: {fileID: 0}
     - target: {fileID: 9006133988933327400, guid: f903c7e0e6be157489e6276e54dfeab8, type: 3}
       propertyPath: m_RootOrder
