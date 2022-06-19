@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 8498429671814849429}
   - component: {fileID: 4782725324870183984}
   - component: {fileID: 7330540908879157498}
+  - component: {fileID: 1302147015037506}
+  - component: {fileID: 1982142730607322354}
   m_Layer: 0
   m_Name: Wall_Destroyed_DualMat
   m_TagString: Untagged
@@ -82,3 +84,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1302147015037506
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9132082258199034159}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7638676, y: 5.008, z: 0.60000014}
+  m_Center: {x: 3.1180677, y: -0.0039999485, z: -1.2532998e-14}
+--- !u!65 &1982142730607322354
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9132082258199034159}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6185056, y: 5.008, z: 0.60000014}
+  m_Center: {x: -3.190749, y: -0.0039999485, z: 1.1500136e-14}
