@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.026875742, g: 0.01514297, b: 0.008605003, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7174,10 +7174,6 @@ MonoBehaviour:
   m_Script: {fileID: 1779549651}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Entries:
-  - id: 0
-    category: 0
-    gameObject: {fileID: 1250753860}
 --- !u!4 &689657445
 Transform:
   m_ObjectHideFlags: 19
@@ -14011,7 +14007,7 @@ MonoBehaviour:
   GUITextStateLabels: 0
   filterLabelsWithDistance: 0
   maxLabelDistance: 10
-  controlMouseCursor: 1
+  controlMouseCursor: 0
   labelScale: 1
 --- !u!4 &1523250841
 Transform:
@@ -16308,11 +16304,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2630867861514647224, guid: 6f1d0b4850677a142af5b4154591a3ee, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 20.64
+      value: 9.32
       objectReference: {fileID: 0}
     - target: {fileID: 2630867861514647224, guid: 6f1d0b4850677a142af5b4154591a3ee, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 43.99
+      value: 65.62
       objectReference: {fileID: 0}
     - target: {fileID: 2630867861514647229, guid: 6f1d0b4850677a142af5b4154591a3ee, type: 3}
       propertyPath: m_IsActive
@@ -16320,7 +16316,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2630867861514647230, guid: 6f1d0b4850677a142af5b4154591a3ee, type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmIntParams.Array.data[0].value
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2630867861514647231, guid: 6f1d0b4850677a142af5b4154591a3ee, type: 3}
       propertyPath: m_Size.z
@@ -16328,7 +16324,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2630867861699392908, guid: 6f1d0b4850677a142af5b4154591a3ee, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2630867863130729377, guid: 6f1d0b4850677a142af5b4154591a3ee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2630867863130729390, guid: 6f1d0b4850677a142af5b4154591a3ee, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -21.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2630867863130729390, guid: 6f1d0b4850677a142af5b4154591a3ee, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 73.8
       objectReference: {fileID: 0}
     - target: {fileID: 5361703619147854545, guid: 6f1d0b4850677a142af5b4154591a3ee, type: 3}
       propertyPath: m_Name
