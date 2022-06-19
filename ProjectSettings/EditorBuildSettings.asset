@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Start Scene.unity
     guid: 8922e8257f868c948b78c4b63fe6702a
   - enabled: 1
-    path: Assets/Scenes/Level 1.unity
+    path: Assets/Scenes/Day 1.unity
     guid: 43b2012782be8674f9efabe0d00df997
   - enabled: 1
-    path: Assets/Scenes/Level 2.unity
+    path: Assets/Scenes/Night 1.unity
     guid: da4cbe70e166a8744b0593d09ee57ccb
   m_configObjects: {}
