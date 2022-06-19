@@ -5005,7 +5005,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           enumName: UnityEngine.SceneManagement.LoadSceneMode
-          intValue: 1
+          intValue: 0
         fsmFloatParams: []
         fsmIntParams:
         - useVariable: 0
@@ -5013,7 +5013,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 2
         fsmBoolParams:
         - useVariable: 0
           name: 
