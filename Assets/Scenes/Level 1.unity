@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 1478.846, g: 1831.9392, b: 2425.4006, a: 1}
+  m_IndirectSpecularColor: {r: 1481.7949, g: 1836.0898, b: 2430.9902, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -16433,7 +16433,7 @@ MonoBehaviour:
   GUITextStateLabels: 0
   filterLabelsWithDistance: 0
   maxLabelDistance: 10
-  controlMouseCursor: 1
+  controlMouseCursor: 0
   labelScale: 1
 --- !u!4 &1523250841
 Transform:
@@ -19070,6 +19070,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 183932064, guid: 6f1d0b4850677a142af5b4154591a3ee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 183932065, guid: 6f1d0b4850677a142af5b4154591a3ee, type: 3}
       propertyPath: fsm.states.Array.data[6].position.x
       value: 487.8672
@@ -19081,6 +19085,18 @@ PrefabInstance:
     - target: {fileID: 183932065, guid: 6f1d0b4850677a142af5b4154591a3ee, type: 3}
       propertyPath: fsm.states.Array.data[5].actionData.fsmIntParams.Array.data[1].value
       value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 401111143, guid: 6f1d0b4850677a142af5b4154591a3ee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082711904, guid: 6f1d0b4850677a142af5b4154591a3ee, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279137674, guid: 6f1d0b4850677a142af5b4154591a3ee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 970053638151793918, guid: 6f1d0b4850677a142af5b4154591a3ee, type: 3}
       propertyPath: m_RootOrder
