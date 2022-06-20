@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 12646.711, g: 9651.048, b: 9003.29, a: 1}
+  m_IndirectSpecularColor: {r: 12276.828, g: 9006.539, b: 7553.9453, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1762,19 +1762,19 @@ Transform:
   - {fileID: 1971996302}
   - {fileID: 1346528582}
   - {fileID: 1739753790}
+  - {fileID: 952791050}
   - {fileID: 997928107}
   - {fileID: 1531195070}
   - {fileID: 77468747}
   - {fileID: 1949541761}
-  - {fileID: 952791050}
-  - {fileID: 1237295309}
-  - {fileID: 191406114}
-  - {fileID: 591905301}
-  - {fileID: 898868231}
-  - {fileID: 476994729}
-  - {fileID: 2121088509}
-  - {fileID: 1492898453}
   - {fileID: 894939192}
+  - {fileID: 476994729}
+  - {fileID: 1237295309}
+  - {fileID: 1492898453}
+  - {fileID: 191406114}
+  - {fileID: 898868231}
+  - {fileID: 591905301}
+  - {fileID: 2121088509}
   - {fileID: 418272839}
   - {fileID: 1900253124}
   - {fileID: 2026670533}
@@ -2434,11 +2434,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1934043481386362570, guid: ab0573c167d87b94fb99fb3e58abbd1b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.75
+      value: -14.6
       objectReference: {fileID: 0}
     - target: {fileID: 1934043481386362570, guid: ab0573c167d87b94fb99fb3e58abbd1b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.12
+      value: 25.94
       objectReference: {fileID: 0}
     - target: {fileID: 1934043481386362570, guid: ab0573c167d87b94fb99fb3e58abbd1b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2470,7 +2470,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1934043482862791233, guid: ab0573c167d87b94fb99fb3e58abbd1b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.25
+      value: 3.6
       objectReference: {fileID: 0}
     - target: {fileID: 3102232533530761623, guid: ab0573c167d87b94fb99fb3e58abbd1b, type: 3}
       propertyPath: m_Type
@@ -10830,7 +10830,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &460912493
 BoxCollider:
   m_ObjectHideFlags: 0
