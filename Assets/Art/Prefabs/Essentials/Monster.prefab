@@ -3656,7 +3656,7 @@ GameObject:
   - component: {fileID: 101619415}
   - component: {fileID: 101619416}
   m_Layer: 0
-  m_Name: SV_Idle Curled
+  m_Name: Monster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
