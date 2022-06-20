@@ -24228,12 +24228,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 101619415, guid: 82644e1d53c4cbb4ebb33d41381b0bba, type: 3}
       propertyPath: EyesSpeed
-      value: 0.7
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 101619415, guid: 82644e1d53c4cbb4ebb33d41381b0bba, type: 3}
       propertyPath: EyesTarget
       value: 
       objectReference: {fileID: 479775739}
+    - target: {fileID: 101619415, guid: 82644e1d53c4cbb4ebb33d41381b0bba, type: 3}
+      propertyPath: EyesLagAmount
+      value: 0.47506553
+      objectReference: {fileID: 0}
     - target: {fileID: 101619415, guid: 82644e1d53c4cbb4ebb33d41381b0bba, type: 3}
       propertyPath: IndividualLags
       value: 1
