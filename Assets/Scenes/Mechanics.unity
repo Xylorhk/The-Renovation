@@ -2270,11 +2270,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9083931561048037231, guid: 8d98554b5480e424f82895b23774dc8c, type: 3}
   m_PrefabInstance: {fileID: 1783631883}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1799200914 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1799200914, guid: 7d02d6af52fb8874682ee28fb11bd339, type: 3}
-  m_PrefabInstance: {fileID: 6758991693348811079}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1805414659
 GameObject:
   m_ObjectHideFlags: 0
@@ -3904,76 +3899,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6479999150603309051, guid: 7d02d6af52fb8874682ee28fb11bd339, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6479999150603309051, guid: 7d02d6af52fb8874682ee28fb11bd339, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6479999150603309051, guid: 7d02d6af52fb8874682ee28fb11bd339, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6758991692428583178, guid: 7d02d6af52fb8874682ee28fb11bd339, type: 3}
-      propertyPath: m_Radius
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6758991692462503900, guid: 7d02d6af52fb8874682ee28fb11bd339, type: 3}
-      propertyPath: m_IsKinematic
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6758991692462503901, guid: 7d02d6af52fb8874682ee28fb11bd339, type: 3}
-      propertyPath: m_Radius
-      value: 0.2
-      objectReference: {fileID: 0}
     - target: {fileID: 6758991692462503903, guid: 7d02d6af52fb8874682ee28fb11bd339, type: 3}
       propertyPath: _waypointArea
       value: 
       objectReference: {fileID: 185798683}
-    - target: {fileID: 6758991692462503903, guid: 7d02d6af52fb8874682ee28fb11bd339, type: 3}
-      propertyPath: detectionPointReference
-      value: 
-      objectReference: {fileID: 1799200914}
-    - target: {fileID: 6758991692462503903, guid: 7d02d6af52fb8874682ee28fb11bd339, type: 3}
-      propertyPath: _detectTags.tags.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6758991692462503903, guid: 7d02d6af52fb8874682ee28fb11bd339, type: 3}
-      propertyPath: _detectTags.tags.Array.data[0]
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 7000885489237635710, guid: 7d02d6af52fb8874682ee28fb11bd339, type: 3}
       propertyPath: m_Name
       value: AI Monster
       objectReference: {fileID: 0}
-    - target: {fileID: 7358891895875631488, guid: 7d02d6af52fb8874682ee28fb11bd339, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7358891895875631488, guid: 7d02d6af52fb8874682ee28fb11bd339, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7358891895875631488, guid: 7d02d6af52fb8874682ee28fb11bd339, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.5
-      objectReference: {fileID: 0}
     - target: {fileID: 7666240293779433668, guid: 7d02d6af52fb8874682ee28fb11bd339, type: 3}
       propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7666240293779433668, guid: 7d02d6af52fb8874682ee28fb11bd339, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7666240293779433668, guid: 7d02d6af52fb8874682ee28fb11bd339, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7666240293779433668, guid: 7d02d6af52fb8874682ee28fb11bd339, type: 3}
-      propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7666240293779433668, guid: 7d02d6af52fb8874682ee28fb11bd339, type: 3}
