@@ -3747,18 +3747,18 @@ MonoBehaviour:
   OptimizeWithMesh: {fileID: 0}
   EyesAnimatorAmount: 1
   FollowTargetAmount: 0.36936915
-  EyesSpeed: 2
+  EyesSpeed: 0.5
   SquintPreventer: 1
-  EyesRandomMovement: 1
-  RandomMovementAxisScale: {x: 1, y: 1}
-  RandomMovementPreset: 4
-  RandomizingSpeed: 3
+  EyesRandomMovement: 0.54983914
+  RandomMovementAxisScale: {x: 0.5, y: 1}
+  RandomMovementPreset: 3
+  RandomizingSpeed: 1
   EyesRandomMovementIndividual: 1
-  EyesLagAmount: 0.65
-  LagStiffness: 1
-  IndividualLags: 1
+  EyesLagAmount: 1
+  LagStiffness: 0.1
+  IndividualLags: 0
   GoOutFactor: 0
-  StopLookAbove: 180
+  StopLookAbove: 135
   MaxTargetDistance: 0
   BlendTransitionSpeed: 1
   EyesClampHorizontal: {x: -35, y: 35}
