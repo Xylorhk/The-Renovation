@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2419381658010390179}
   - component: {fileID: 1602302188690931974}
   - component: {fileID: 3591746115903550924}
+  - component: {fileID: 3467219659580937221}
   m_Layer: 0
   m_Name: Glass Door
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3467219659580937221
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3087374088461505561}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.2660503, y: 3.894194, z: 0.7414588}
+  m_Center: {x: -0.0074509997, y: 2.0306168, z: -0.027322685}
