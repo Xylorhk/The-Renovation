@@ -2014,7 +2014,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -2050,7 +2050,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!1 &7760308731287981039
 GameObject:
   m_ObjectHideFlags: 0
@@ -2061,6 +2061,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7760308731287981037}
   - component: {fileID: 7760308731287981036}
+  - component: {fileID: 2715885945273562927}
+  - component: {fileID: 708010207293759664}
+  - component: {fileID: 7247422582970646274}
   m_Layer: 0
   m_Name: Build Trigger
   m_TagString: Buildable
@@ -2095,6 +2098,45 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.133312, y: 5.102314, z: 2}
   m_Center: {x: -0.031624794, y: -0.067282796, z: 0}
+--- !u!114 &2715885945273562927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7760308731287981039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 82786459, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs: []
+--- !u!114 &708010207293759664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7760308731287981039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -104615663, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs: []
+--- !u!114 &7247422582970646274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7760308731287981039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1144467388, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs: []
 --- !u!1 &7760308731567746766
 GameObject:
   m_ObjectHideFlags: 0
@@ -2105,6 +2147,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7760308731567746764}
   - component: {fileID: 7760308731567746767}
+  - component: {fileID: 33340411837175741}
   m_Layer: 0
   m_Name: Damage Trigger
   m_TagString: Untagged
@@ -2139,6 +2182,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.133312, y: 5.102314, z: 2}
   m_Center: {x: -0.031624794, y: -0.067282796, z: 0}
+--- !u!114 &33340411837175741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7760308731567746766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 82786459, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs: []
 --- !u!1 &8014803405648597674
 GameObject:
   m_ObjectHideFlags: 0

@@ -445,7 +445,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8777886962383497506, guid: 85dc3284d9cc9d64aad419d910e261e2, type: 3}
       propertyPath: m_Name
-      value: PlayerControllerNight
+      value: PlayerControllerNight Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8777886962383497508, guid: 85dc3284d9cc9d64aad419d910e261e2, type: 3}
       propertyPath: m_RootOrder
