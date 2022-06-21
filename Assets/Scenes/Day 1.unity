@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 12287.3125, g: 9013.586, b: 7560.703, a: 1}
+  m_IndirectSpecularColor: {r: 8156.5156, g: 6825.6562, b: 6665.2734, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1444,7 +1444,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &149900667
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20850,7 +20850,7 @@ Transform:
   m_LocalScale: {x: 0.99999976, y: 1, z: 0.99999976}
   m_Children: []
   m_Father: {fileID: 502553757}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
 --- !u!114 &2008559023
 MonoBehaviour:
@@ -21710,7 +21710,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 59, y: 96.5}
+  m_AnchoredPosition: {x: 59, y: 195}
   m_SizeDelta: {x: 579.79, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &2062199744
@@ -21733,9 +21733,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "This building looks to have some fire damage. Not as as bad as I would
-    expect though.\n\nThe blueprint shows which walls need to come down and where
-    the new ones should go. \n\nTime to get to work."
+  m_text: "Time to begin the renovation. A lot of these walls look badly damaged.\n\nThe
+    blueprint shows which walls need to come down and where the new ones should go.
+    \n\nTime to get to work.\n\nJob Complete at 80."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
