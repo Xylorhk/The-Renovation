@@ -9,6 +9,7 @@ TagManager:
   - Hammer
   - Unbroken
   - Buildable
+  - Pickup
   layers:
   - Default
   - TransparentFX
